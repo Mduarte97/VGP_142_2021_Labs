@@ -46,8 +46,9 @@ public class GameManager : MonoBehaviour
       
     }
 
+ 
 
-  
+
     public void QuitGame()
     {
 #if UNITY_EDITOR
