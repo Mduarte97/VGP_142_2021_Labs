@@ -12,7 +12,7 @@ public class EndTrigger : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void OnCollisionEnter(Collision collision)
+    void OnCollision(Collider collision)
     {
         if (collision.gameObject.tag == "Player")
         {
